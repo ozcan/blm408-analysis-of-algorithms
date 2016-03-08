@@ -27,8 +27,7 @@ for diziBoyutu in diziBoyutlari:
 	toplamDenemeSayisi = 0
 
 	for i in range(kacKereDenenecek):
-		#aranan = random.randint(0, diziBoyutu - 1)
-		aranan = -73
+		aranan = random.randint(0, diziBoyutu - 1)
 		denemeSayisi = binarySearch(dizi, aranan)
 		toplamDenemeSayisi = toplamDenemeSayisi + denemeSayisi
 
